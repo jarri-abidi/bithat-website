@@ -4,38 +4,28 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Al-Bi'that Trust Pakistan"
+      content : "An education system which encompasses all acquired sciences and uses them as a means to achieve human perfection."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact/"
+      # button:
+      #   enable : true
+      #   label : "Apply now"
+      #   link : "contact/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "15 institutes"
+      content : "working and affiliated under Al-Bi'that Trust."
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "500 students"
+      content : "receiving education from institutes under Al-Bi'that Trust."
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact/"
-
+      
 
 ############################### Banner feature ###############################
 banner_feature:
@@ -43,35 +33,32 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
+    - name : "Education"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Welfare"
+      icon : "ti-package" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Karwan Quran"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name : "Our Notice Board"
+    - name : "Tableegh"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Our Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "About Bi'that"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "It is the essence of Islam that it provides us with complete guidance in all spheres of life especially education. Our goal is to establish a system of education and spiritual training which will clarify and expand Quranic and Islamic viewpoints through disseminating knowledge  with belief that all acquired sciences; theological, philosophical or modern pave the way for and facilitate man’s true progress. As a result learning becomes a means to reach proximity with Allah and consequently leads to fulfillment of religious and personal fundamentals of the society. It is this perfection which God desires of us and endears us to Him. What is diverse about Bi’that Trust is that we have been successful in implementation of religious teachings and modern education together."
   button:
     enable : true
     label : "Learn more"
@@ -125,16 +112,16 @@ funfacts:
       count : "60"
 
     # funfact item loop
-    - name : "COURSES"
-      count : "50"
+    - name : "INSTITUTES"
+      count : "15"
 
     # funfact item loop
     - name : "STUDENTS"
-      count : "1000"
+      count : "500"
 
     # funfact item loop
-    - name : "SATISFIED CLIENT"
-      count : "1400"
+    - name : "COURSES"
+      count : "30"
 
 # funfact is for about page
 

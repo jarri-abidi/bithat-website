@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/educenter/examplesite/"
 title = "Educenter | hugo education template"
-theme = "educenter-hugo"
+theme = "bithat-website"
 # post pagination
 paginate = "6"
 # post excerpt
